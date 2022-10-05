@@ -13,9 +13,8 @@ a {
 
 }
 
-}
-
-.btn-social {
+ }
+ .btn-social {
     border-radius: 50%;
     color: #ffffff;
     display: inline-block;
@@ -26,44 +25,41 @@ a {
     text-decoration: none;
     width: 54px;
 
-    .fa, i {
-        transform: scale(1);
-        transition: all .25s;
-        transform: scale(1.3);
+
     
-    }
-    
-    &:hover,&:focus{
+
+       &:hover,&:focus{
         color: #fff;
         outline: none;
         text-decoration: none;
+
+  
         transform: scale(1.3);
     }
+ 
 
+.btn-xs{
+    @include botones (9px, 24px, 13px, 6px 2px, 36px)
+}
 
-    .btn-xs{
-        @include botones (9px, 24px, 13px, 6px 2px, 36px)
-    }
-    
-    .btn-sm{
-        @include botones (13px, 36px, 18px, 6px 2px, 36px)
-    }
+.btn-sm{
+    @include botones (13px, 36px, 18px, 6px 2px, 36px)
+}
 
-    .btn-lg{
-        @include botones (35px, 82px, 59px, 18px 9px, 82px)
-    }
-    
-    .btn-facebok{
-        background-color: $facebookBackground;
-        &:hover{
-            background-color: $facebookHover;
-        }
-    }
-
+.btn-lg{
+    @include botones (35px, 82px, 59px, 18px 9px, 82px)
+}
+  }
+  
     .btn-instagram{
         background-color: $instagramBackground; 
         &:hover{
-            background-color: $instagramHover;
+        background-color: $instagramHover;
         }
     }
-}
+    .btn-facebook{
+        background-color: $facebookBackground;
+        &:hover{
+        background-color:$facebookHover;
+        }
+    }

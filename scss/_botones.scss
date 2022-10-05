@@ -40,3 +40,9 @@ $value in $colors {
     display:none;
     }
     }
+
+    @media screen and (max-width: 576px) {
+        .ocultar-div__botones{
+        display:none;
+        }
+        }
