@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:ital,wght@0,600;1,400&display=swap');
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:ital,wght@0,600;1,400&display=swap');
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+
+/* Tipografías vars */ 
 
 $mainFont: 'Source Sans Pro', sans-serif;
 $secondaryFont: 'Lato', sans-serif;
 
+*{
+    font-family: $mainFont
+}
+
+/* Colores vars */
 
 $mainColor: pink;
 $navColor: rgb(230, 230, 230);
@@ -12,18 +20,22 @@ $facebookHover: #4c70ba;
 $instagramHover: #ef7aa7;
 $instagramBackground: #EA4C89;
 
-
+/* Colores vars botones */ 
 
 $rosapastel: rgba(248, 179, 212, 0.601);
 $violeta: rgba(187, 164, 233, 0.704);
 $verde: rgba(165, 239, 225, 0.626);
 $lavanda: rgba(170, 195, 239, 0.553);
 
+/* Tamaños de fuentes */ 
 
 $textLarge: 3.2em;
 $textMedium: 2.2em;
+$textMlarge: 1.6em;
 $textSmall: 1.2em;
 $textXsmall: 1em;
+
+/* Paleta colores Mapa */ 
 
 $paletacolores: (
     'uno': pink, 
@@ -35,87 +47,36 @@ $paletacolores: (
     'siete': rgba(248, 179, 212, 0.601), 
 );
 
+/* Fondos */ 
+
 .bg-back{
     background-color: map-get($map: $paletacolores, $key: dos);
-}
-
-
-*{
-    font-family: $mainFont
-    
 }
 
 .bg-pink{
     background-color: $mainColor;
 }
 
-#botonera img{
-    width: 150px;
-}
-ul li {
-    list-style: none;
-}
-
-
 .bg-pink2{
     color: $mainColor;
     background-color: white
 }
 
+/* Comunes */ 
 
-
-.font-parrafo {
-    font-size: $textSmall;
-    display: flex;
-    justify-content: center;
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-bottom: 5%;
-    text-align: center;
+#botonera img{
+    width: 150px;
 }
 
-.cuidados-jackets{
-    background-color: map-get($map: $paletacolores, $key: dos );
-    font-size: $textMedium;
-    
-}
-
-.div-care {
-    width: 300px;
-    border: 20px solid map-get($map: $paletacolores, $key:dos );
-    padding: 20px;
-    margin: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    color: $mainColor;
-   
-  }
-
-
-  
-
-
-
-  
-
-  .text-cuidados {
-    font-size: $textMedium;
-    line-height: 1em;
-}
-.form-contacto {
-    background-color: map-get($map: $paletacolores, $key: dos);
-    padding: 10vh;
-}
-
-.about-us {
-    @extend .cuidados-jackets;
-    font-size: $textSmall;
-    color: map-get($map: $paletacolores, $key: seis );
+ul li {
+    list-style: none;
 }
 
 .img-fit {
     width: 100%;
 }
 
+/* Empieza comunes al carousel */ 
 
 .text-car {
     padding: 2vh;
@@ -143,5 +104,84 @@ ul li {
     }
 }
 
+/* Termina comunes al carousel */ 
+
+/* Títulos y párrafos */ 
+
+.text-titulos {
+    text-transform: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    font-family: $mainFont;
+    color: map-get($map: $paletacolores, $key: uno);
+    text-decoration: none;
+    list-style: none;
+}
+
+.text-parrafos {
+    @extend .text-titulos;
+    font-size: $textSmall;
+}
+
+.font-parrafo {
+    font-size: $textSmall;
+    display: flex;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 2%;
+    text-align: center;
+}
 
 
+/* Cuidados prendas */ 
+
+.cuidados-jackets{
+    background-color: map-get($map: $paletacolores, $key: dos );
+    font-size: $textMedium;
+    
+}
+
+.div-care {
+    width: 300px;
+    border: 20px solid map-get($map: $paletacolores, $key:dos );
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    color: $mainColor;
+}
+
+.text-cuidados {
+    font-size: $textMedium;
+    line-height: 1em;
+}
+
+/* procesos prendas */ 
+
+.div-proceso{
+    @extend .cuidados-jackets;
+    font-size: $textMlarge;
+    background-color: transparent;
+    line-height: 1em;
+}
+
+.text-proceso {
+    @extend .div-proceso;
+    font-size: $textXsmall;
+    color: black;
+}
+
+/* Contacto y sobre nosotros */ 
+
+.form-contacto {
+    background-color: map-get($map: $paletacolores, $key: dos);
+    padding: 10vh;
+}
+
+.about-us {
+    @extend .cuidados-jackets;
+    font-size: $textSmall;
+    color: map-get($map: $paletacolores, $key: seis );
+}

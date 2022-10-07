@@ -18,21 +18,3 @@
         color: map-get($map: $paletacolores, $key: seis);
     }
 }
-
-.text-titulos {
-    text-transform: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: center;
-    font-family: $mainFont;
-    color: map-get($map: $paletacolores, $key: uno);
-    text-decoration: none;
-    list-style: none;
-}
-
-.text-parrafos {
-    @extend .text-titulos;
-    font-size: $textSmall;
-}
-
