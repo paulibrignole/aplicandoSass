@@ -2,6 +2,7 @@
 En primer lugar agradecer a la profe Lau por sus explicaciones geniales, hizo muy divertida y llevadera la cursada desde el día 1 y a mi tutora Juli que me ayudó muchísimo. 
 Este es un proyecto que dejé stand by porque es dificil emprender en Argentina, pero es algo que me gusta mucho hacer. Se trata de prendas customizadas a mano, desde pintura hasta accesorios metálicos o lo que se les pueda ocurrir para personalizarlo, lo hice en camperas, jeans, shorts, zapatillas, camisas, remeras, etc. Pero la estrella del proyecto son y serán las camperas. Este proyecto surgió como una iniciativa a hacer un mixin entre el diseño de indumentaria y la pintura, por lo que surgió ara morena. Siempre habia querido tener un sitio personalizado por lo que tomé la oportunidad para jugar y hacerlo realidad un poquito.
 # Links del proyecto 🚀
+https://github.com/paulibrignole/proyectofinalAramorena.git
 
 https://aramorena1.000webhostapp.com/
 
