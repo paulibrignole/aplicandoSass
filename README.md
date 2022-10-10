@@ -1,5 +1,5 @@
 # Proyecto final "Ara morena"
-En primer lugar agradecer a la profe Lau por sus explicaciones geniales, hizo muy divertida y llevadera la cursada desde el Cancel changesdía uno y a mi tutora Juli que me ayudó muchísimo. 
+En primer lugar agradecer a la profe Lau por sus explicaciones geniales, hizo muy divertida y llevadera la cursada desde el día uno y a mi tutora Juli que me ayudó muchísimo. 
 Este es un proyecto que dejé stand by por diversas razones, pero es algo que me gusta mucho hacer, por lo que me encantaría retomarlo. Se trata de prendas customizadas a mano, desde la pintura hasta los accesorios agregados para personalizarlas, lo hice en camperas, jeans, shorts, zapatillas, camisas, remeras, etc. Pero la estrella del proyecto son y serán las camperas. Este proyecto surgió como iniciativa para integrar el diseño de indumentaria y textil y la pintura, por lo que surgió ara morena. Siempre habia querido tener un sitio personalizado, así que tomé la oportunidad para hacerlo realidad un poquito.
 # Links del proyecto 🚀
 - https://github.com/paulibrignole/proyectofinalAramorena.git
